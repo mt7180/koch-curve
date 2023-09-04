@@ -7,3 +7,6 @@ Starting from a triangle, iteratively subdevide each edge by adding outward bend
 ### Usage: KochCurve nsteps
 parameters:
 - nsteps: number of steps the Koch cuve is to be transformed (max. 5)
+
+
+![Screenshot of the JFrame output](koch_curve_level5.png)

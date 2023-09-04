@@ -131,6 +131,6 @@ class KochCurve extends JFrame{
                 System.out.println(usageText);
             }
         }
-        new KochCurve(poly_xPoints, poly_yPoints, nsteps).setTitle(String.format("Aufgabe4: Koch-Kurve der Stufe %d", nsteps));
+        new KochCurve(poly_xPoints, poly_yPoints, nsteps).setTitle(String.format("Koch curve: iteration %d", nsteps));
     }
 }
